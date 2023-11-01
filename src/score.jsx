@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+
+
 export default function ScoreDisplay({ score }) {
   return (
     <div className="score-display">
@@ -5,3 +8,7 @@ export default function ScoreDisplay({ score }) {
     </div>
   );
 }
+
+ScoreDisplay.propTypes = {
+  score: PropTypes.number.isRequired, 
+};

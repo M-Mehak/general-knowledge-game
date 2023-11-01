@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
-import Question from './Question/Question';
-import Counter from './Question/counter'
-import Score from './Question/Score';
+import Question from './Question';
+import Counter from './counter'
+import Score from './score';
 
 function decodeHTMLEntities(text) {
   const textArea = document.createElement('textarea');
